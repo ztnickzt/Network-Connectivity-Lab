@@ -1,4 +1,4 @@
-# Network-Connectivity-Lab
+# Basic-Network-Topology-and-Web-Server-Configuration-Lab
 ## Objective
 
 This project involved creating a basic network topology in Cisco Packet Tracer using a Cisco 3650 switch, laptops, and a server. The goal was to configure IP addresses, MAC addresses, default gateways, test device connectivity, troubleshoot an invalid IP address issue, and verify access to a simple web server across the network.
