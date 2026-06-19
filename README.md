@@ -3,18 +3,6 @@
 
 This project involved creating a basic network topology in Cisco Packet Tracer using a Cisco 3650 switch, laptops, and a server. The goal was to configure IP addresses, MAC addresses, default gateways, test device connectivity, troubleshoot an invalid IP address issue, and verify access to a simple web server across the network.
 
-## Skills Learned
-
-- Built a basic network topology using Cisco Packet Tracer.
-- Added and configured end devices, including laptops and a server.
-- Connected devices to a Cisco 3650 switch.
-- Labeled network connections and interfaces.
-- Configured IP addresses, MAC addresses, subnet masks, and default gateways.
-- Used `ipconfig` to verify device network settings.
-- Used `ping` to test connectivity between devices.
-- Troubleshot a failed ping caused by an invalid IP address.
-- Configured a basic server for web access.
-- Tested web connectivity using a server IP address or hostname.
 
 ## Tools Used
 
