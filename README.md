@@ -60,7 +60,7 @@ These settings allowed the device to communicate on the local network.
 
 To make sure my changes went through correctly, I opened the command prompt on the device and typed: ipconfig
 This command showed the device’s IP address, subnet mask, and default gateway.
-<img width="832" height="798" alt="Laptop1 5_1_2026 7_20_51 PM" src="https://github.com/user-attachments/assets/5685fd76-0d31-4911-8c1e-99935772a05d" />
+
 
 
 ### 6. Labeled IP Addresses and Subnet Masks
@@ -89,7 +89,7 @@ This confirmed that the laptops were now able to communicate with each other.
 ### 10. Added a Server to the Topology
 
 After confirming laptop-to-laptop communication, I added a server to the topology and connected it to the switch.
-<img width="1920" height="1009" alt="Cisco Packet Tracer 5_3_2026 4_25_04 PM" src="https://github.com/user-attachments/assets/1285901a-dc38-4ae3-b342-e11dfe6fc34c" />
+
 The server was added so the network could support a basic web service.
 
 
