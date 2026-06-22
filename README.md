@@ -39,7 +39,9 @@ I labeled the connections between the devices and the switch. In my case, the co
 - Gigabit Ethernet 1/0/2
 
 I used copper straight-through cables for all of my connections. These cables were used to connect the laptops and server to the Cisco 3650 switch.
+
 <img width="1920" height="1009" alt="Cisco Packet Tracer 5_1_2026 6_57_40 PM" src="https://github.com/user-attachments/assets/a05ca621-c06d-4c2a-8c72-93f9e78643a8" />
+
 Labeling the connections made the topology easier to understand and helped with troubleshooting.
 
 
@@ -51,7 +53,9 @@ I clicked on the first laptop and configured its network settings, including:
 - MAC address
 - Subnet mask
 - Default gateway
+
 <img width="1009" height="700" alt="Laptop0 5_1_2026 7_06_20 PM" src="https://github.com/user-attachments/assets/580dccdd-425f-4187-abe0-89ffa68f294c" />
+
 
 These settings allowed the device to communicate on the local network.
 
@@ -74,7 +78,9 @@ I used the ping command from Laptop1 to ping Laptop0. This test was used to chec
 
 
 ### 8. Identified a Failed Ping
+
 <img width="832" height="475" alt="Laptop1 5_2_2026 10_53_35 PM" src="https://github.com/user-attachments/assets/c5936e46-96b2-4c81-98dc-b041532e2a6c" />
+
 The first ping test did not receive a reply. This happened because one of the devices had an invalid IP address.
 This showed how important correct IP addressing is when configuring devices on the same network.
 
@@ -82,7 +88,9 @@ This showed how important correct IP addressing is when configuring devices on t
 ### 9. Fixed the IP Address Issue
 
 After correcting the invalid IP address, I tested connectivity again. This time, the ping was successful and I received 4 replies.
+
 <img width="832" height="475" alt="Laptop1 5_2_2026 11_01_05 PM" src="https://github.com/user-attachments/assets/01637a0b-50da-47b9-a748-a2f4f1bdc4ea" />
+
 This confirmed that the laptops were now able to communicate with each other.
 
 
@@ -117,6 +125,7 @@ A successful reply confirmed that the server was communicating with the other de
 
 With the network devices connected and communicating, I created a simple HTML page on the server.
 This allowed the server to act as a basic web server in the Cisco Packet Tracer network.
+
 <img width="832" height="475" alt="Server0 5_3_2026 1_17_51 PM" src="https://github.com/user-attachments/assets/f1b30395-dcc6-41d9-b083-127e7c52e6f4" />
 
 
@@ -125,6 +134,7 @@ This allowed the server to act as a basic web server in the Cisco Packet Tracer 
 To test the web server, I went to Laptop1 and opened the web browser.
 I access the web I could have typed either: cisco, or the server’s IP address.
 This allowed me to confirm that Laptop1 could access the web page hosted on the server.
+
 <img width="832" height="466" alt="Laptop0 5_3_2026 4_24_28 PM" src="https://github.com/user-attachments/assets/413b4427-41a7-450e-92f8-37526e4cd8b1" />
 
 
