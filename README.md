@@ -10,13 +10,11 @@ This project involved creating a basic network topology in Cisco Packet Tracer u
 - Cisco 3650 Switch
 - Laptops / End Devices
 - Server
-- Copper Straight-Through Cable — Used for all network connections between the switch, laptops, and server.
+- Copper Straight-Through Cable
 - Fast Ethernet
 - Gigabit Ethernet
 - Command Prompt
-- `ipconfig`
-- `ping`
-- Basic HTML
+- HTML
 
 ## Steps
 
